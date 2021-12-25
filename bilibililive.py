@@ -5,9 +5,9 @@ from mirai import Startup
 from mirai.models import AtAll
 from mirai.exceptions import ApiError
 
-sleepTime = 30
-groupINFO = [[[389391931],[69731917,'',"0","0",""]],#[[[群号，群号,......],[b站号,'',"0","0",""]],[[群号，群号,......],[b站号,'',"0","0",""]],......]
-            [[517814646],[1553878284,'',"0","0",""]]]
+sleepTime = 30 #监测频率
+groupINFO = [[[000],[000,'',"0","0",""]],#[[[群号，群号,......],[b站号,'',"0","0",""]],[[群号，群号,......],[b站号,'',"0","0",""]],......]
+            [[000],[000,'',"0","0",""]]]
 def getLive(i):
     global groupINFO
     url = "https://api.bilibili.com/x/space/acc/info?mid="+str(groupINFO[i][1][0])
