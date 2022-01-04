@@ -80,12 +80,9 @@ adapterSettings:
     
     reservedSyncId: -1
 ```  
+在pyPlgins文件夹里建一个config文件夹，里面创建一个空白txt取名bili-live.txt
+config\\bili-live.txt
     
 ## 最后是如何使用
-按照注释更改bilibililive.py中以下几个参数即可
-```  
-sleepTime = 30 #检测频率/秒
-groupINFO = [[[0000],[0000,'',"0","0",""]],#[[[群号，群号,......],[b站号,'',"0","0",""]],[[群号，群号,......],[b站号,'',"0","0",""]],......]
-            [[0000],[0000,'',"0","0",""]]]
-```  
-
+发送：添加 live/uid
+即可添加监测对象
