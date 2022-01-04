@@ -7,7 +7,7 @@ pip install yiri-mirai
 
 ## 2.将bot.py放入mcl同级目录下（为了方便寻找插件路径）
 
-## 3.在plugins目录下建立一个pyPlugins文件夹，将jytime.py放进去
+## 3.在plugins目录下建立一个pyPlugins文件夹，将bilibililive.py放进去
 
 ## 4.bot.py配置：
 
